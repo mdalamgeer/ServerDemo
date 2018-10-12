@@ -12,8 +12,8 @@ let Duplex = require('stream').Duplex;
 // abc
 const net = require('net');
 const port = 7070;
-const host = 'localhost';
- //const host = '18.223.148.236';
+const host = '18.225.7.66';
+ //const host = '13.59.245.117';
 const server = net.createServer();
 
 server.listen(port, host, () => {
@@ -53,13 +53,6 @@ var datetime = "Last Sync: " + currentdate.getDate() + "/"
    
 });
 	
- 
- 
- 
   console.log("a user connected");
-  
-  	
-
-
 
 });
