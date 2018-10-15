@@ -13,7 +13,7 @@ let Duplex = require('stream').Duplex;
 const net = require('net');
 const port = 7070;
 //const host = '18.225.7.66';
- const host = '172.31.45.92';
+ const host = '13.59.245.117';
 const server = net.createServer();
 
 server.listen(port, host, () => {
